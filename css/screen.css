@@ -2661,7 +2661,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
     left: 100%}
 .carousel-control {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 15px;
     width: 40px;
     height: 40px;

@@ -137,9 +137,24 @@
                <div class="row">
                    <div class="span12">
                        <h2>Eventos</h2>
-                       <div class="jollyness">
-                          
-                       </div>
+                   </div>
+                   <div class="span10 offset1">
+                        <div id="myCarousel" class="carousel slide">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    <div class="active item"><img src="img/clarice.jpg"></div>
+    <div class="item"><img src="img/clarice.jpg"></div>
+    <div class="item"><img src="img/clarice.jpg"></div>
+  </div>
+  <!-- Carousel nav -->
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
                    </div>
                </div>
              </div>
@@ -335,9 +350,13 @@
                   ]
                 });
         </script>
-
-        <script src="js/carousel.js"></script>
+        <script type="text/javascript">
+            $('#myCarousel').carousel({
+                interval: 4200
+            });
+        </script>
         <script src="js/main-ck.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </body>
 
 
@@ -347,7 +366,7 @@
     <h3 id="myModalLabel">Nome do evento</h3>
   </div>
   <div class="modal-body">
-    <img src="img/ji_preview_free_432.png" height="800px"/>
+    <img src="img/clarice.jpg" height="800px"/>
   </div>
 </div>
 
