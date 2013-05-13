@@ -3755,6 +3755,11 @@ footer.bg-special.foot {
 .banner {
   background: url("../img/bg-banner.jpg") no-repeat;
 }
+#quemsomos h2 {
+    text-align: center;
+    font-size: 4em;
+    padding-bottom: 30px;
+}
 #portfolio {
     font-size: 0.813em;
     border-bottom: 4px solid #CCC;
