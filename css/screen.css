@@ -3739,8 +3739,7 @@ hr.blue {
     border-bottom-left-radius: 200em 15em;
 }
 .cool .dots {
-    background-image: url("data:image/svg+xml;
-    base64, PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
+    background-image: url("logo.png");
 }
 .bg-special h2, .txtr h2 {
     font-size: 2em;
@@ -3749,8 +3748,20 @@ hr.blue {
     font-size: 2.4em;
 }
 footer.bg-special.foot {
-  padding-top: 20px;
-  padding-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  color: #000;
+}
+footer.bg-special.foot a {
+    background: #000;
+}
+#promocional {
+    background: #FFF;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 7px 7px 50px rgba(50, 50, 50, 0.68);
+    -moz-box-shadow:    7px 7px 50px rgba(50, 50, 50, 0.68);
+    box-shadow:         7px 7px 50px rgba(50, 50, 50, 0.68);
 }
 .banner {
   background: url("../img/bg-banner.jpg") no-repeat;
@@ -3778,21 +3789,31 @@ footer.bg-special.foot {
     margin: 40px 0 30px;
     text-align: center;
 }
+#eventos {
+    color: #FFF;
+    background: #121317 url("../img/bg-footer.jpg") no-repeat;
+}
 #eventos h2 {
+    color: #FFF;
     font-size: 4em;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 #contato {
+    color: #FFF;
     font-size: 0.938em;
+    background: #121317 url("../img/bg-footer.jpg") no-repeat;
 }
 #contato h2 {
+    color: #FFF;
     font-size: 4em;
     padding-top: 10px;
     padding-bottom: 20px;
 }
 #contato iframe {
   border: 1px solid #CCC;
+  padding: 10px;
+  background: #FFF;
 }
 .brand {
     font-family: cursive;
@@ -4116,6 +4137,7 @@ section {
 #portfolio p {
     margin-bottom: 80px;
 }
+
 .share-btns {
     margin: 15px 0 40px;
 }
@@ -4274,6 +4296,7 @@ img {
 footer {
     padding: 30px 0 15px;
     font-size: 1em;
+    color: #000 !important;
 }
 @media (max-width: 767px) {
     .copy, .htchrs {
