@@ -3759,9 +3759,9 @@ footer.bg-special.foot a {
     background: #FFF;
     margin-top: 50px;
     margin-bottom: 50px;
-    -webkit-box-shadow: 7px 7px 50px rgba(50, 50, 50, 0.68);
-    -moz-box-shadow:    7px 7px 50px rgba(50, 50, 50, 0.68);
-    box-shadow:         7px 7px 50px rgba(50, 50, 50, 0.68);
+    -webkit-box-shadow: 17px 27px 50px rgba(50, 50, 50, 0.68);
+    -moz-box-shadow:    17px 27px 50px rgba(50, 50, 50, 0.68);
+    box-shadow:         17px 27px 50px rgba(50, 50, 50, 0.68);
 }
 .banner {
   background: url("../img/bg-banner.jpg") no-repeat;
